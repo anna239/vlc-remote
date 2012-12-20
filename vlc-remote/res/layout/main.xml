@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Pause"
+            android:id="@+id/pauseBtn" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Stop"
+            android:id="@+id/stopBtn" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:text="Next"
+            android:id="@+id/nextBtn" android:layout_gravity="left|center_vertical"/>
+</LinearLayout>
+
